@@ -23,3 +23,5 @@ food["햄"]=6
 #삭제
 del food["김밥"]
 print(food)
+
+print("aaaa")
