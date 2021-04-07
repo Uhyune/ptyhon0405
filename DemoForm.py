@@ -7,7 +7,7 @@ from PyQt5 import uic
 form_class = uic.loadUiType("DemoForm.ui")[0]
 
 #다이얼로그를 상속받아서 폼 클래스를 정의
-class DemoForm(QDialog,form_class):
+class DemoForm(Qialog,form_class):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
